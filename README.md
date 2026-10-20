@@ -240,6 +240,7 @@ Although the AppImage format was carefully designed not to need any special supp
 - [libappimage](https://github.com/AppImage/libappimage) - Implements functionality for dealing with AppImage files, written in C++ using Boost.
 - [libzsync-go](https://github.com/AppImageCrafters/libzsync-go) - Zsync implementation written in Go that can be used to update AppImages.
 - [appenv](https://github.com/TheMarlboroMan/appenv) - Small C++ library telling where the app data resides and where the user data is by using `readlink("/proc/self/exe")`), thus allowing C++ applications to become relocatable in the filesystem.
+- [LinSparkle](https://github.com/medcelerate/LinSparkle) - In-app updater library for AppImages that reads Sparkle and WinSparkle appcasts and Ed25519 signatures, with Rust and C/C++ APIs.
 
 ### Templates
 
